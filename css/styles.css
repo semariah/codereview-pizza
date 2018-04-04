@@ -1,0 +1,19 @@
+.jumbotron {
+  text-align: center;
+  background-color: #FFB6C1;
+}
+body{
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) , url("../img/pizza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h4 {
+  font-style: bold;
+}
+#output {
+  display: none;
+}
+/*#reset {
+  display: none;
+}*/
