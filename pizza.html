@@ -26,19 +26,18 @@
           <label for="address">Full address (Street name & zipcode)</label>
           <input type="text" class="form-control" id="fulladdress">
         </div>
-        <button type="submit" class="btn btn-success" name="button">Submit</button>
-      </form>
 
-      <form id="pizza-type">
         <div class="new-pizza-part">
           <div class="new-pizza">
             <div class="form-group">
-              <h4>Choose your desired sizes.</h4>
-              <input type="checkbox" name="sizes" value="small"> Small 10"<br>
-              <input type="checkbox" name="sizes" value="medium"> Medium 12"<br>
-              <input type="checkbox" name="sizes" value="large"> Large 14"<br>
-            </div>
-            <br>
+              <h5> Choose Your Size : </h5>
+              <select class="pizza-size-input">
+                <option value = "small">Small</option>
+                <option value = "medium">Medium</option>
+                <option value = "large">Large</option>
+              </select>
+            </div><br>
+
             <div id="topping" class="form-group">
               <h4>Choose your favorite three toppings maximum from the list below</h4>
               <input type="checkbox" name="toppings" value="mushrooms"> Mushrooms<br>
